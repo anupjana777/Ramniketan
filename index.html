@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="https://media.gettyimages.com/photos/idol-of-durga-during-durga-puja-festival-picture-id516386879">
+
+<!-- Navigation -->
+<!--<nav class="w3-bar w3-black">-->
+<body>
+<title>Bengalis @ Ramniketan</title>
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">Our Initiatives</a>
+  <a href="photogallery.html">Photo Gallery</a>
+  <a href="#about">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<!-- Slide Show -->
+<!-- Slideshow container -->
+<div class="slideshow-container">
+  <!-- Description -->
+  <section class="w3-container w3-center w3-content" style="max-width:650px">
+    <h2 class="w3-wide">Bengalis @ Ramniketan</h2>
+    <p class="w3-opacity"><i>The unique community</i></p>
+      </section>
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="https://media.gettyimages.com/photos/bengali-festival-durga-puja-picture-id1008894800" style="width:100%",>
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="https://media.gettyimages.com/photos/idol-of-durga-during-durga-puja-festival-picture-id516386879" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="https://media.gettyimages.com/photos/celebrating-durga-puja-festival-picture-id614204994" style="width:100%">
+    <div class="text"></div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="https://media.gettyimages.com/photos/bengali-festival-durga-puja-picture-id1008888616" style="width:100%">
+    <div class="text"></div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="https://media.gettyimages.com/photos/portrait-of-a-beautiful-bengali-woman-blowing-conch-shell-at-durga-picture-id1198448085" style="width:100%">
+    <div class="text"></div>
+  </div>
+  <section class="w3-container w3-center w3-content" style="max-width:800px">
+    <p class="w3-justify">There is a popular saying 'What Bengal thinks today, Rest of the India will think tomorrow'. This tells what a rich genetic inheritance the people of Bengal have. Bengal has been home to great social reformers like Raja Ram Mohan Roy and Vidyasagar. The great saint Ram Krishna Param Hans and Nobel Laureate Rabindra Nath Tagore also had their roots in Bengal's soil. Today, Bengalis reflect a mixture of traditional values and modern traditions. They have deep affinity toward art, craft and music and mainly believe in socialism.The culture of West Bengal is considered to be one of the richest cultures in India. Apart from boasting of its immense contribution in reformation movements, the state also takes the credit for being the pioneer of cosmopolitan culture in the country. Over the years, the culture of West Bengal has emerged as the perfect blend of modernity and traditions. The sanctity of Hooghly, the beauty of Eastern Himalayas, the diversity of Sunderbans and the freshness of the Tea Gardens, all blend together to constitute what we call the unique culture of West Bengal. Bengali culture also has its root in Bengali music, Bengali cinema and Bengali literature. The delicious Bengali cuisine also forms an important constituent of the state's cultural heritage. <br> We, in Ram Niketan are celebrating and enjoying various fastivals together. </p>
+  </section>
+<!-- Members -->
+<section class="w3-row-padding w3-center w3-light-grey">
+  <article class="w3-third">
+    <p>Aditya</p>
+    <img src="#" alt="Random Name" style="width:100%">
+    <p>Hello all.</p>
+  </article>
+  <article class="w3-third">
+    <p>Vivek</p>
+    <img src="#" alt="Random Name" style="width:100%">
+    <p>Hello all.</p>
+  </article>
+  <article class="w3-third">
+    <p>Amlyan</p>
+    <img src="#" alt="Random Name" style="width:100%">
+    <p>Hello all.</p>
+  </article>
+</section>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-instagram"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">
+  Copyright <a href="https://https://anupjana777.github.io/CV/" target="_blank">Anup</a>
+  </p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>
